@@ -32,5 +32,5 @@ RSpec.configure do |config|
   end
 end
 
-WebMock.disable_net_connect!(allow_localhost: true)
-WebMock::Config.instance.query_values_notation = :flat_array
+#WebMock.disable_net_connect!(allow_localhost: true)
+
